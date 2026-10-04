@@ -1,0 +1,10 @@
+{
+  "name": "codemate-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix codemate/frontend run dev",
+    "build": "npm --prefix codemate/frontend run build",
+    "preview": "npm --prefix codemate/frontend run preview"
+  }
+}
